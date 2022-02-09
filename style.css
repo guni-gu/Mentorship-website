@@ -1,0 +1,210 @@
+/* REUSABLE STYLING START */
+body,
+footer {
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.button {
+  background-color: #ffb6c1;
+  color: #556b2f;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 10px;
+
+  padding: 15px 30px 15px 30px;
+}
+
+.button:hover {
+  color: black;
+  background-color: white;
+  transition: all 1s;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* REUSABLE STYLING END */
+
+/* Intro slide start */
+
+.heading-container {
+  background-image: url(heading.jpg);
+  background-size: 80vh;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* no scroll */
+  background-size: cover;
+  /*  cover the entire container,
+     even if it has to stretch the image or cut off the edges*/
+
+  padding: 100px 100px;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-heading {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 45px;
+}
+
+.main-description {
+  text-align: center;
+  color: #ffb6c1;
+  font-size: 20px;
+}
+
+.intro-description {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* learn more button*/
+.learn-more {
+  display: flex;
+  justify-content: center;
+}
+
+/* FAQ section */
+
+.faq {
+  background-color: white;
+  color: #006400;
+
+  padding: 40px 100px 40px 100px;
+}
+
+.question-container {
+  margin-bottom: 40px;
+}
+
+.question {
+  font-size: 25px;
+  font-weight: bold;
+
+  margin-bottom: 20px;
+}
+
+.answer {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.underline-text:hover {
+  text-decoration: underline;
+}
+
+ul > li {
+  padding: 10px 15px 10px 15px;
+  list-style-position: inside;
+}
+
+ul {
+  padding-inline-start: 0px; /*removes default 40px first line space*/
+}
+
+#buyhere {
+  display: inline-block;
+}
+
+/*Video section*/
+
+.video-container {
+  background: url(heading.jpg) no-repeat center center;
+  /*shoreter of background-image: url(heading.jpg);
+    background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  background-size: cover;
+
+  padding: 50px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.video-heading {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+.video {
+  border: none;
+}
+
+/*social media& fontawsome*/
+
+.social-media {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+a.fa {
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+/* Quote Start*/
+
+.quote-container {
+  color: #006400;
+  text-align: center;
+  padding: 100px;
+}
+
+.quote-text {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.quote-author {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #006400;
+}
+
+.quote-author > a {
+  color: rgb(2, 48, 2);
+}
+
+/* Footer START */
+
+footer {
+  font-size: 15px;
+  color: white;
+}
+
+.site-info-container {
+  background-image: linear-gradient(#086808, rgb(2, 48, 2));
+  padding: 5px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+/*Footer END*/

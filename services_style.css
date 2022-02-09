@@ -1,0 +1,70 @@
+body,
+footer {
+  font-family: "Open Sans", sans-serif;
+}
+
+.heading-container {
+  background-image: url(dog_plant.jpg);
+
+  background-attachment: fixed;
+  /* no scroll */
+  background-size: cover;
+  /*  cover the entire container,
+     even if it has to stretch the image or cut off the edges*/
+
+  padding: 100px 100px;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-heading,
+.heading,
+.back {
+  font-size: 20px;
+  color: #006400;
+  text-align: center;
+
+  padding: 50px;
+}
+
+.services-container {
+  background-color: #ffb6c1;
+  width: 100%;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.decoration-container {
+  font-size: 20px;
+  color: #006400;
+  padding: 100px 100px;
+}
+
+.plants-container {
+  font-size: 20px;
+  color: #006400;
+
+  padding: 100px 100px;
+}
+
+/* Footer START */
+footer {
+  font-size: 20px;
+  color: white;
+}
+
+.site-info-container {
+  background-image: linear-gradient(#086808, rgb(2, 48, 2));
+
+  bottom: 0;
+
+  width: 100%;
+  text-align: center;
+}
+/*Footer END*/
